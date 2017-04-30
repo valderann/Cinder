@@ -1,0 +1,65 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#map-canvas {
+    width: 600px;
+    height: 400px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.button {
+    color:#eee;
+
+    padding:5px;
+    width:150px;
+    height:30px;
+    border-radius: 3px;
+    border: 1px #fff solid;
+    cursor:pointer;
+    margin: 3px;
+}
+.active {
+    background-color:#99ba46;
+}
+.inactive{
+    background-color:#808080;
+}
+
+.match {
+    border: 1px #ccc solid;
+    padding: 5px;
+    display: inline-block;
+    width: 320px;
+    height: 620px;
+    margin:3px;
+}
+
+.thumbnailcontainer{
+    height: 55px;
+    overflow-y: auto;
+}
+.bio {
+
+    height: 70px;
+    overflow-y: auto;
+    font-size: 12px;
+    font-family: arial;
+}
+
+.thumbnail {
+    display: inline-block;
+    margin:2px;
+    cursor:pointer;
+}
